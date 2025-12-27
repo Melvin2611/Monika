@@ -18,7 +18,7 @@ REM --noconsole: No console window (remove this for debugging)
 REM --icon: Custom icon (if you have monika.ico)
 REM --add-data: Include image files
 
-python -m pyinstaller --onefile --noconsole --name "Monika" --icon "monika.ico" --add-data "monika.png;." --add-data "jumpscare.png;." --add-data "jumpscare1.png;." --add-data "jumpscare2.png;." --add-data "jumpscare.wav;." --add-data "error.wav;." --add-data "ambient.wav;." --add-data "laugh.wav;." --add-data "glitch.wav;." monika.py
+python -m PyInstaller --onefile --noconsole --name "Monika" --icon "monika.ico" --add-data "monika.png;." --add-data "jumpscare.png;." --add-data "jumpscare1.png;." --add-data "jumpscare2.png;." --add-data "jumpscare.wav;." --add-data "error.wav;." --add-data "ambient.wav;." --add-data "laugh.wav;." --add-data "glitch.wav;." monika.py
 
 echo.
 echo ========================================

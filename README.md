@@ -103,10 +103,10 @@ python monika.py
    
    Or manually:
    ```bash
-   pyinstaller --onefile --noconsole --name "Monika" --add-data "monika.png;." --add-data "jumpscare.png;." monika.py
+   python -m PyInstaller --onefile --noconsole --name "Monika" --icon "monika.ico" --add-data "monika.png;." --add-data "jumpscare.png;." --add-data "jumpscare1.png;." --add-data "jumpscare2.png;." --add-data "jumpscare.wav;." --add-data "error.wav;." --add-data "ambient.wav;." --add-data "laugh.wav;." --add-data "glitch.wav;." monika.py
    ```
 
-3. Find your exe in the `dist` folder
+3. Find your .exe in the `dist` folder
 
 ## Emergency Stop
 
