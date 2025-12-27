@@ -1,5 +1,7 @@
 # Monika.exe - DDLC Prank Game
 
+## This Project has been Inspired by NepGenesis on YouTube: https://www.youtube.com/watch?v=Edgfh7BDKpM
+
 A Doki Doki Literature Club inspired prank program featuring Monika.
 
 **This is a HARMLESS prank program. It does NOT:**
